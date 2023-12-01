@@ -11,7 +11,7 @@ body{
     background-color:coral;
     padding: 5rem 10rem;
 }
-.container{
+.posts{
     min-width: 20rem;
     width: 70vw;
     margin: auto;

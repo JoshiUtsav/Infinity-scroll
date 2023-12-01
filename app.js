@@ -20,7 +20,6 @@ const geoPost = async () => {
         container.insertAdjacentHTML('beforeend', htmldata);
     });
 }
-geoPost();
 
 const showData = () => {
     setTimeout(() => {
@@ -31,8 +30,8 @@ const showData = () => {
 
 window.addEventListener('scroll', () => {
     const { scrollHeight, scrollTop, clientHeight } = document.documentElement;
-
     if (scrollTop + clientHeight >= scrollHeight) {
         showData();
     }
 });
+geoPost();

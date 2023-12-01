@@ -11,7 +11,7 @@ const geoPost = async () => {
     data.map((curElm, index) => {
         const htmldata = `
         <div class="posts">
-        <p class="post-id">${pageCount++}</p>
+        <p class="post-id">${postCount++}</p>
         <h2 class="title">${curElm.title}</h2>
         <p class="post-info" >${curElm.body}/p>
         </div>`;

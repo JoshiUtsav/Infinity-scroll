@@ -30,6 +30,7 @@ const showData = () => {
 
 window.addEventListener('scroll', () => {
     const { scrollHeight, scrollTop, clientHeight } = document.documentElement;
+    console.log(scrollHeight, scrollTop, clientHeight);
     if (scrollTop + clientHeight >= scrollHeight) {
         showData();
     }

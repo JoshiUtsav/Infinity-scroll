@@ -5,7 +5,7 @@ let postCount = 1;
 
 
 const geoPost = async () => {
-    const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=${limitShow}$_page=${pageCount}`);
+    const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=${limitShow}&_page=${pageCount}`);
     const data = await res.json();
 
     data.map((curElm, index) => {

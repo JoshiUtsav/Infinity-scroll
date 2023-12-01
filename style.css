@@ -1,29 +1,15 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    font-family: Poppins;
-}
-html{
-    font-size: 62.5%;
-}
-body{
-    background-color:coral;
-    padding: 5rem 10rem;
-}
-.posts{
-    min-width: 20rem;
-    width: 70vw;
-    margin: auto;
-    color: white;
-    display: flex;
-    border: 1px solid black;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
 }
 
-.container h1{
-    font-size: 5rem;
-    font-weight: 100;
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.posts {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
 }
